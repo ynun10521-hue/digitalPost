@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="96" height="96" rx="10" fill="#F3EEFF" stroke="#C9B6F0" stroke-width="2" stroke-dasharray="4 3"/>
+  <g transform="translate(50,56)">
+    <path d="M-9,-22 h18 a4,4 0 0 1 4,4 v6 h-26 v-6 a4,4 0 0 1 4,-4 Z" fill="none" stroke="#9B82CE" stroke-width="3"/>
+    <rect x="-28" y="-12" width="56" height="36" rx="5" fill="#C9B6F0"/>
+    <rect x="-28" y="-12" width="56" height="10" rx="4" fill="#B79EE8"/>
+    <rect x="-7" y="-6" width="14" height="10" rx="2" fill="#F3EEFF"/>
+    <circle cx="0" cy="-1" r="1.6" fill="#9B82CE"/>
+  </g>
+  <text x="50" y="90" font-family="sans-serif" font-size="9" fill="#9B82CE" text-anchor="middle">WORK HARD</text>
+</svg>

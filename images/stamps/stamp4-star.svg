@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="96" height="96" rx="10" fill="#EAF4FF" stroke="#A9D3F5" stroke-width="2" stroke-dasharray="4 3"/>
+  <g fill="#8FC4EF">
+    <path d="M50,22 L55,40 L73,40 L58,51 L63,69 L50,58 L37,69 L42,51 L27,40 L45,40 Z"/>
+  </g>
+  <g fill="#C9B6F0">
+    <path d="M25,68 l3,8 l8,3 l-8,3 l-3,8 l-3,-8 l-8,-3 l8,-3 Z"/>
+    <path d="M76,64 l2.5,6.5 l6.5,2.5 l-6.5,2.5 l-2.5,6.5 l-2.5,-6.5 l-6.5,-2.5 l6.5,-2.5 Z"/>
+  </g>
+  <text x="50" y="90" font-family="sans-serif" font-size="9" fill="#7BA9D6" text-anchor="middle">SPARKLE</text>
+</svg>

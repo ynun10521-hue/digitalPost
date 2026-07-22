@@ -1,0 +1,16 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="96" height="96" rx="10" fill="#FFF0F5" stroke="#F3AEC7" stroke-width="2" stroke-dasharray="4 3"/>
+  <g transform="translate(50,56)">
+    <ellipse cx="-11" cy="-30" rx="7" ry="18" fill="#FBDDE9"/>
+    <ellipse cx="-11" cy="-28" rx="3.5" ry="12" fill="#F5AEC8"/>
+    <ellipse cx="11" cy="-30" rx="7" ry="18" fill="#FBDDE9"/>
+    <ellipse cx="11" cy="-28" rx="3.5" ry="12" fill="#F5AEC8"/>
+    <ellipse cx="0" cy="0" rx="24" ry="22" fill="#FFFFFF" stroke="#F3D2E0" stroke-width="1.5"/>
+    <circle cx="-8" cy="-2" r="2.5" fill="#7A6B70"/>
+    <circle cx="8" cy="-2" r="2.5" fill="#7A6B70"/>
+    <path d="M0,4 L-3,7 L3,7 Z" fill="#F5AEC8"/>
+    <path d="M0,7 C-2,10 -6,10 -7,8" stroke="#7A6B70" stroke-width="1.2" fill="none"/>
+    <path d="M0,7 C2,10 6,10 7,8" stroke="#7A6B70" stroke-width="1.2" fill="none"/>
+  </g>
+  <text x="50" y="90" font-family="sans-serif" font-size="9" fill="#D98FA0" text-anchor="middle">HELLO</text>
+</svg>

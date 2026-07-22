@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="96" height="96" rx="10" fill="#EAF6FF" stroke="#8FC4EF" stroke-width="2" stroke-dasharray="4 3"/>
+  <g transform="translate(50,52)">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#7EC8E3" stroke-width="2"/>
+    <polygon points="0,-9 8,-3 5,7 -5,7 -8,-3" fill="#6B5A63"/>
+    <line x1="0" y1="-9" x2="0" y2="-22" stroke="#6B5A63" stroke-width="1.6"/>
+    <line x1="8" y1="-3" x2="19" y2="-9" stroke="#6B5A63" stroke-width="1.6"/>
+    <line x1="5" y1="7" x2="12" y2="18" stroke="#6B5A63" stroke-width="1.6"/>
+    <line x1="-5" y1="7" x2="-12" y2="18" stroke="#6B5A63" stroke-width="1.6"/>
+    <line x1="-8" y1="-3" x2="-19" y2="-9" stroke="#6B5A63" stroke-width="1.6"/>
+    <path d="M-30,-2 q-6,2 -8,8" stroke="#A9D3F5" stroke-width="2" fill="none"/>
+    <path d="M30,4 q6,2 8,8" stroke="#A9D3F5" stroke-width="2" fill="none"/>
+  </g>
+  <text x="50" y="90" font-family="sans-serif" font-size="9" fill="#5C9BC4" text-anchor="middle">GO TEAM</text>
+</svg>

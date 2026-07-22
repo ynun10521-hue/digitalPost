@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="96" height="96" rx="10" fill="#FFF0F5" stroke="#F3AEC7" stroke-width="2" stroke-dasharray="4 3"/>
+  <g transform="translate(50,58)">
+    <rect x="-6" y="-34" width="4" height="12" fill="#F5D06E"/>
+    <path d="M-4,-36 C-8,-40 -1,-44 -4,-48 C0,-45 3,-40 -1,-36 Z" fill="#F0904A"/>
+    <rect x="-26" y="-22" width="52" height="16" rx="4" fill="#FDECF2"/>
+    <rect x="-26" y="-22" width="52" height="5" rx="2.5" fill="#F5AEC8"/>
+    <rect x="-30" y="-6" width="60" height="24" rx="5" fill="#FFFFFF" stroke="#F3D2E0" stroke-width="1.5"/>
+    <path d="M-30,-6 q7,-6 14,0 q7,-6 14,0 q7,-6 14,0 q7,-6 14,0" fill="none" stroke="#F5AEC8" stroke-width="2.5"/>
+    <circle cx="-14" cy="6" r="3" fill="#B7E0C8"/>
+    <circle cx="4" cy="4" r="3" fill="#F0C878"/>
+    <circle cx="16" cy="7" r="3" fill="#F5AEC8"/>
+  </g>
+  <text x="50" y="90" font-family="sans-serif" font-size="8.5" fill="#D98FA0" text-anchor="middle">HAPPY DAY</text>
+</svg>

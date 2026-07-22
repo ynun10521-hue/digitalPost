@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>디지털 우체국</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Gaegu:wght@400;700&family=Gowun+Dodum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ 라디오 탭 스위치 (JS 없이 CSS로만 전환) ============ -->
+  <input type="radio" name="tab" id="tab-make" class="tab-input" checked>
+  <input type="radio" name="tab" id="tab-gallery" class="tab-input">
+
+  <div class="sky">
+    <span class="cloud c1"></span>
+    <span class="cloud c2"></span>
+    <span class="cloud c3"></span>
+  </div>
+
+  <header class="site-header">
+    <h1 class="site-title">디지털 우체국</h1>
+    <p class="site-sub">마음을 담은 디지털 엽서를 만들고, 모아보세요 <span class="heart">♥</span></p>
+
+    <nav class="tab-nav">
+      <label for="tab-make" class="tab-label sticker sticker-pink">
+        <span class="pin"></span>엽서 만들기
+      </label>
+      <label for="tab-gallery" class="tab-label sticker sticker-blue">
+        <span class="pin"></span>모아보기
+      </label>
+    </nav>
+  </header>
+
+  <!-- ============ TAB 1 : 엽서 만들기 ============ -->
+  <main class="panel panel-make">
+    <section class="maker-grid">
+
+      <!-- 왼쪽 : 컨트롤 패널 -->
+      <div class="control-card">
+
+        <div class="control-block">
+          <h2 class="block-title">1. 우표 고르기</h2>
+          <div class="stamp-picker" id="stampPicker">
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="1" checked>
+              <img src="images/stamps/stamp1-clover.svg" alt="클로버 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="2">
+              <img src="images/stamps/stamp2-cat.svg" alt="고양이 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="3">
+              <img src="images/stamps/stamp3-bunny.svg" alt="토끼 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="4">
+              <img src="images/stamps/stamp4-star.svg" alt="별 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="5">
+              <img src="images/stamps/stamp5-music.svg" alt="음표 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="6">
+              <img src="images/stamps/stamp6-dog.svg" alt="개 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="7">
+              <img src="images/stamps/stamp7-hamster.svg" alt="햄스터 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="8">
+              <img src="images/stamps/stamp8-wedding.svg" alt="결혼 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="9">
+              <img src="images/stamps/stamp9-birthday.svg" alt="생일 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="10">
+              <img src="images/stamps/stamp10-school.svg" alt="학교 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="11">
+              <img src="images/stamps/stamp11-food.svg" alt="음식 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="12">
+              <img src="images/stamps/stamp12-sport.svg" alt="운동 우표">
+            </label>
+            <label class="stamp-option">
+              <input type="radio" name="stamp" value="13">
+              <img src="images/stamps/stamp13-work.svg" alt="일 우표">
+            </label>
+          </div>
+        </div>
+
+        <div class="control-block">
+          <h2 class="block-title">2. 배경 고르기</h2>
+          <div class="bg-picker" id="bgPicker">
+            <label class="bg-option"><input type="radio" name="bg" value="bg-cream" checked><span class="swatch bg-cream"></span>크림</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-pink"><span class="swatch bg-pink"></span>핑크</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-blue"><span class="swatch bg-blue"></span>블루</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-mint"><span class="swatch bg-mint"></span>민트</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-lav"><span class="swatch bg-lav"></span>라벤더</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-vanilla"><span class="swatch bg-vanilla"></span>바닐라</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-lemon"><span class="swatch bg-lemon"></span>레몬</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-peach"><span class="swatch bg-peach"></span>피치</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-coral"><span class="swatch bg-coral"></span>코랄</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-sky"><span class="swatch bg-sky"></span>스카이</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-olive"><span class="swatch bg-olive"></span>올리브</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-dot-pink"><span class="swatch bg-dot-pink"></span>핑크도트</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-check"><span class="swatch bg-check"></span>체크</label>
+            <label class="bg-option"><input type="radio" name="bg" value="bg-stripe"><span class="swatch bg-stripe"></span>스트라이프</label>
+          </div>
+        </div>
+
+        <div class="control-block">
+          <h2 class="block-title">3. 글 쓰기</h2>
+          <label class="field-label" for="inputRecipient">받는 사람</label>
+          <input type="text" id="inputRecipient" class="text-input" placeholder="예) 사랑하는 민지에게" maxlength="30">
+
+          <label class="field-label" for="inputTitle">제목</label>
+          <input type="text" id="inputTitle" class="text-input" placeholder="엽서 제목을 적어주세요" maxlength="40">
+
+          <label class="field-label" for="inputContent">본문</label>
+          <textarea id="inputContent" class="text-area" rows="5" placeholder="전하고 싶은 이야기를 적어보세요..." maxlength="400"></textarea>
+          <div class="char-count">글자수 제한: <span id="charCount">0</span>/400</div>
+        </div>
+
+        <div class="control-block button-row">
+          <button type="button" id="btnDownload" class="btn btn-secondary">🖼 이미지로 저장</button>
+          <button type="button" id="btnSaveDb" class="btn btn-primary">💌 저장하기</button>
+        </div>
+        <p class="save-status" id="saveStatus"></p>
+      </div>
+
+      <!-- 오른쪽 : 실시간 미리보기 -->
+      <div class="preview-wrap">
+        <div class="postcard bg-cream" id="postcard">
+          <div class="airmail-border"></div>
+
+          <div class="stamp-slot">
+            <img id="previewStamp" src="images/stamps/stamp1-clover.svg" alt="선택된 우표">
+          </div>
+
+          <div class="postcard-inner">
+            <p class="postcard-recipient" id="previewRecipient">받는 사람을 적어주세요</p>
+            <h3 class="postcard-title" id="previewTitle">제목이 여기에 표시됩니다</h3>
+            <p class="postcard-content" id="previewContent">본문 내용이 실시간으로 이 곳에 채워집니다. 왼쪽에서 글을 적어보세요 :)</p>
+          </div>
+
+          <div class="postmark">
+            <span class="postmark-ring"></span>
+            <span class="postmark-date" id="previewDate"></span>
+          </div>
+        </div>
+        <p class="preview-hint">✎ 왼쪽에서 고른 내용이 이 엽서에 바로 반영돼요</p>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- ============ TAB 2 : 모아보기 ============ -->
+  <main class="panel panel-gallery">
+    <section class="gallery-wrap">
+      <h2 class="gallery-title">내가 만든 엽서들 <span class="heart">♥</span></h2>
+      <div class="gallery-grid" id="galleryGrid">
+        <p class="gallery-empty" id="galleryEmpty">아직 저장된 엽서가 없어요. 엽서를 만들고 저장해보세요!</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 상세보기 모달 -->
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose">닫기</button>
+      <button class="modal-delete" id="modalDelete">삭제</button>
+      <button class="modal-download" id="modalDownload">저장</button>
+      <div class="postcard bg-cream" id="modalPostcard">
+        <div class="airmail-border"></div>
+        <div class="stamp-slot"><img id="modalStamp" src="" alt="우표"></div>
+        <div class="postcard-inner">
+          <p class="postcard-recipient" id="modalRecipient"></p>
+          <h3 class="postcard-title" id="modalTitle"></h3>
+          <p class="postcard-content" id="modalContent"></p>
+        </div>
+        <div class="postmark">
+          <span class="postmark-ring"></span>
+          <span class="postmark-date" id="modalDate"></span>
+        </div>
+        <p class="delete-status" id="deleteStatus"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
